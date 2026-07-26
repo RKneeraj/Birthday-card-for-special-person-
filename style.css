@@ -1023,3 +1023,9 @@ body {
     color: white;
     z-index: 10000000000000000;
 }
+.inside p, .message {
+  color: #ffffff !important; /* या #333333 */
+  font-size: 18px;
+  position: relative;
+  z-index: 10; /* मैसेज को ऊपर लाने के लिए */
+}
